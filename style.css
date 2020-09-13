@@ -1,0 +1,432 @@
+*{margin: 0;padding: 0}
+
+
+a{
+	text-decoration: none;
+	color: #ffffff;
+	text-shadow: 2px 2px #000000;
+}
+li {list-style:none;}
+.menu{
+	position: relative;
+	height: 58px;
+	background: #00986df2;
+	font-family: arial;
+}
+.container{
+	margin: 0 3%;
+	display: flex;
+	position: relative;
+
+
+}
+.column1{
+	width: 20%;
+}
+.l_con{
+	font-size: 25px;
+	text-align: left;
+}
+.l_con b{
+
+font-size: 24px;
+
+position: relative;
+
+color: coral;
+}
+.l_con small{
+
+color: #00d1fe;
+
+text-shadow: 2px 2px #FF0187;
+}
+.column1 .logo h2{
+	text-align: center;
+    color: orange;
+}
+.column2{
+	width: 60%;
+	margin: auto;
+	font-size: 25px;
+}
+.column2 .menu_list{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+.column2 .menu_list .list {
+	list-style: none;
+	margin: auto 30px
+}
+
+.sub_menu{
+	display: table;
+	padding-top: 15px;
+	margin-left: -20px;
+	position: absolute;
+}
+.sub_menu span{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	background: #ffffff00;
+	border-bottom: 6px solid beige;
+	border-right: 6px solid beige;
+	border-top: 6px solid #0d9d7400;
+	border-left: 6px solid #0d9d7412;
+	margin: -21px 0 0 39px;
+	transform: rotate(45deg);
+	display: none;
+}
+
+.sub_menu .subMenu{
+
+overflow-x: hidden;
+
+overflow-y: scroll;
+
+display: none;
+
+height: 300px;
+
+position: relative;
+
+z-index: 2;
+}
+.sub_menu .subMenu li{
+
+padding: 2px 19px;
+
+margin-bottom: 1px;
+
+background: #40ecbb;
+
+color: lemonchiffon;
+
+font-size: 20px;
+}
+
+.column2 .menu_list .list:hover .subMenu{
+	display:block;
+}
+.column2 .menu_list .list:hover .sub_menu span{
+	display:block;
+}
+.column3{
+	width: 100%;
+	text-align: right;
+	margin: auto;
+}
+.column3 a {
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+
+}
+
+
+
+
+.lo_re{
+	margin: auto;
+	width: 65%;
+	text-align: center;
+	display: flex;
+	margin-top: 30px;
+}
+.from_div{
+	margin: auto;
+}
+.login, .reg{
+	display: inline-block;
+	width: 50%;
+}
+.login{
+	font-size: 23px;
+	padding: 3px 0px;
+	background: #e5e5e5;
+	color: blue;
+}
+.reg{
+	font-size: 23px;
+    padding: 3px 0px;
+    background: #87ceeb;
+}
+
+
+.login_from {
+	display:flex;
+	overflow: hidden;
+	width:100;
+	background: #4079cb;
+	font-family: arial;
+}
+
+.login_from .content{
+	width: 57%;
+	background: #00b5ff;
+	clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+	position: relative;
+}
+
+.login_from .content .text{
+    width: 72%;
+    padding: 24px;
+    line-height: 30px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    position: relative;
+    transform: translate(50%, 50%);
+    top: 11%;
+    left: -34%;
+    color: #fff;
+}
+.login_from .content .tex_s{
+    width: 72%;
+    padding: 24px;
+    line-height: 30px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    position: relative;
+    transform: translate(50%, 50%);
+    top: 21%;
+    left: -34%;
+    color: #fff;
+}
+
+.login_from .content h3{
+	padding: 10px;
+	font-family: arial;
+	font-size: 34px;
+	color: #fff;
+	text-shadow: 2px 2px black;
+}
+.login_from .content p{
+	padding: 10px;
+	font-family: 'Mukta', sans-serif;
+	text-shadow: 1px 1px black;
+}
+img{width: 100%}
+
+.from_div form{
+	width: 65%;
+	margin: 0 auto 30px;
+	background: #fff;
+}
+.from_div .img{
+	
+width: 60%;
+	
+margin: auto;
+}
+.from_div .input{
+	
+border-bottom: 1px solid #8585c7;
+	
+margin: 28px;
+}
+
+.from_div .input input {
+	width: 97%;
+	border: none;
+	padding: px;
+	font-size: 16px;
+}
+
+.from_div .submit{
+	
+background: blue;
+}
+.from_div .submit{
+	
+background: blue;
+	
+border-radius: 23px;
+	
+border: none;
+	
+padding: 3px 0;
+}
+.from_div .input input[type=submit]{
+	width: 100%;
+	background: none;
+	color: #fff;
+}
+
+
+.row{
+	margin: -18px 28px 20px;
+}
+.row .check, .f_pass{
+	display: inline-block;
+}
+.row .check{
+	
+}
+.row .f_pass{
+	float: right;
+	color: blue;
+}
+
+label{
+	margin: 6px
+}
+
+
+.from_div p{
+	text-align: center;
+	margin-top: -24px;
+	padding-bottom: 10px;
+}
+.from_div a{
+	color:blue;
+	text-decoration: underline;
+	text-shadow: none;
+	font-size: 16px;
+}
+.sign_g_f {
+	
+	text-align: center;
+}
+.sign_g_f img{
+	width:25px;
+	text-align: center;
+	margin: 12px 12px -11px;
+}
+a:hover{
+	color:#ff6200;
+}
+.subMenu li:hover{
+	color: #ff5200;
+	background: lemonchiffon;
+}
+}
+
+.input a {
+    font-family: "Font Awesome 5 Free";
+    float: right;
+    position: absolute;
+    margin: 0 0px 0 -11px;
+}
+.input a{
+    font-family: "Font Awesome 5 Free";
+    float: right;
+    position: absolute;
+    margin: 0 0px 0 -11px;
+}
+.input a{
+    font-family: "Font Awesome 5 Free";
+    float: right;
+    position: absolute;
+    margin: 0 0px 0 -11px;
+    color: #ddd;
+}
+.input a:hover{
+	color:#ff6200;
+}
+
+@media screen and (max-width: 768px) {
+	.content{
+    display: none;
+  	}
+  	.lo_re{
+  		width:96%;
+  	}
+  	.from_div form{
+  		max-width: 600px;
+  		width:96%;
+  	}
+	.md_screen{
+		display: none;
+	}
+  	.mabile{
+	display: block;
+	padding: 1px 0;
+	margin: 0 18px;
+	}
+	.container{
+		display: block;
+	}
+	.column2 .menu_list .list {
+    
+    margin: auto 10px;
+}
+	.column3{
+		margin-top: -67px!important;
+		text-align: right;
+	}
+}
+
+@media screen and (min-width: 768px) {
+  
+
+  .login_from .content .tex_s{
+  	
+    transform: translate(50%, 50%);
+    top: -20%;
+    left: -34%;
+    
+  }
+  .mabile{
+	display: none;
+	}'
+  .login_from .content .text{
+  	
+    transform: translate(50%, 50%);
+    top: -20%;
+    left: -34%;
+    
+  }
+  .container{
+	margin: 0 3%;
+	display: flex;
+	position: relative;
+
+
+}
+.column3{
+	width: 20%;
+}
+  
+}
+@media screen and (min-width: 992px) {
+  
+
+  .login_from .content .text{
+  	
+    transform: translate(50%, 50%);
+    top: 11%;
+    left: -34%;
+    
+  }
+  .login_from .content .tex_s{
+  	
+    transform: translate(50%, 50%);
+    top: 11%;
+    left: -34%;
+    
+  }
+}
